@@ -1,0 +1,78 @@
+{
+  "name": "smappen",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.27.2",
+    "core-js": "^3.8.3",
+    "heatmap.js": "^2.0.5",
+    "highcharts": "^10.1.0",
+    "leaflet": "^1.8.0",
+    "leaflet.heat": "^0.2.0",
+    "quasar": "^2.0.0",
+    "roboto-fontface": "*",
+    "vue": "^3.2.13",
+    "vue-autosuggest": "^2.2.0",
+    "vue-axios": "^3.4.1",
+    "vue-highcharts": "^0.2.0",
+    "vuex": "^4.0.2",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-e2e-cypress": "^5.0.4",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-unit-mocha": "^5.0.4",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/test-utils": "^2.0.0-0",
+    "chai": "^4.2.0",
+    "cypress": "^8.3.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.38.0",
+    "sass-loader": "^12.0.0",
+    "vue-cli-plugin-quasar": "~5.0.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {},
+    "overrides": [
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)",
+          "**/tests/unit/**/*.spec.{j,t}s?(x)"
+        ],
+        "env": {
+          "mocha": true
+        }
+      }
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
